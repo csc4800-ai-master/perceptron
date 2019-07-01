@@ -33,6 +33,7 @@ Train your algorithm with:
 * **AND** Training set, bipolar input and targets (`and-bipolar.json`)
 
 AND binary input, bipolar targets:
+
 x1 | x2 | target
 -- | -- | -----
 1 | 1 | 1

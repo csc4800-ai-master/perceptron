@@ -30,13 +30,16 @@ Step 6:		Test stopping condition: if no weights changed in Step 2, stop, else co
 ## Training
 Train your algorithm with:
 * **AND** Training set, binary input, bipolar targets
+* **AND** Training set, bipolar input and targets (`and-bipolar.json`)
+
+AND binary input, bipolar targets:
 x1 | x2 | target
 -- | -- | -----
 1 | 1 | 1
 1 | 0 | -1
 0 | 1 | -1
 0 | 0 | -1
-* **AND** Training set, bipolar input and targets (`and-bipolar.json`)
+
 
 ## Program Requirements
 * The code should generalize on the number of features (dimensions), and the
